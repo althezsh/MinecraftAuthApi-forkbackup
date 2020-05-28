@@ -1,4 +1,4 @@
-# Mojang Auth Api
+# MineCraft Auth Api
 
 Minecraft account authentication api
 
