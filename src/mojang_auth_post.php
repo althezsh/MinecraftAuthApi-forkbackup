@@ -24,7 +24,7 @@ function http_post_json($url, $jsonStr)
 function mojang_auth($username, $password) {
     $apiurl = "https://authserver.mojang.com/authenticate";
     $clientToken = time();
-    $jsondata = json_encode(array('agent' => array('name' => 'Minecraft', 'version' => 1), 'username' => $username, 'password' => $password, 'clientToken' => '123', 'requestUser' => 'true'));
+    $jsondata = json_encode(array('agent' => array('name' => 'Minecraft', 'version' => 1), 'username' => $username, 'password' => $password, 'clientToken' => $clientToken, 'requestUser' => 'true'));
     return http_post_json($apiurl, $jsondata);
 }
 
