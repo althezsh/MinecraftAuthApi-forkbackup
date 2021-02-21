@@ -1,7 +1,7 @@
 # MineCraft Auth Api
 
 Minecraft account authentication api
-
+It is a backup of MinecraftAuthApi
 ## API (GET request)
 
 ```
